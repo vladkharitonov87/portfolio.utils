@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	  <PublishRepositoryUrl>true</PublishRepositoryUrl>
+	  <DebugSymbols>true</DebugSymbols>
+	  <DebugType>embedded</DebugType>
+	  <LangVersion>latest</LangVersion>
+	  <Nullable>enable</Nullable>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <PackageId>Seb.Hc.Common.Utils</PackageId>
+	  <PackageVersion>1.0.0</PackageVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>
