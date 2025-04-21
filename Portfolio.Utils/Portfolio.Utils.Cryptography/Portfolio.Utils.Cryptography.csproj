@@ -8,7 +8,7 @@
 	  <LangVersion>latest</LangVersion>
 	  <Nullable>enable</Nullable>
 	  <ImplicitUsings>enable</ImplicitUsings>
-	  <PackageId>Seb.Hc.Common.Utils</PackageId>
+	  <PackageId>Portfolio.Utils.Cryptography</PackageId>
 	  <PackageVersion>1.0.0</PackageVersion>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
