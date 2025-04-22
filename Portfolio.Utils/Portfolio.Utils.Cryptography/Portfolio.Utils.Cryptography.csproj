@@ -9,8 +9,7 @@
 	  <Nullable>enable</Nullable>
 	  <ImplicitUsings>enable</ImplicitUsings>
 	  <PackageId>Portfolio.Utils.Cryptography</PackageId>
-	  <PackageVersion>1.0.0</PackageVersion>
-	  <RepositoryUrl>https://github.com/vladkharitonov87/portfolio.utils.git</RepositoryUrl>
+	  <PackageVersion>1.0.1</PackageVersion>
   </PropertyGroup>
 
 </Project>
