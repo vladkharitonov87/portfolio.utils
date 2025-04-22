@@ -35,12 +35,12 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Build and Pack NuGet package
-      run: dotnet pack portfolio.utils/Portfolio.Utils/Portfolio.Utils.Cryptography/Portfolio.Utils.Cryptography.csproj -p:Version='${{ steps.gitversion.outputs.SemVer }}' -c Release
+      run: dotnet pack Portfolio.Utils/Portfolio.Utils.Cryptography/Portfolio.Utils.Cryptography.csproj -p:Version='${{ steps.gitversion.outputs.SemVer }}' -c Release
     - name: Upload NuGet package to GitHub
       uses: actions/upload-artifact@v4
       with:
         name: nugetPackage
-        path: bin/Release/ 
+        path: Portfolio.Utils/Portfolio.Utils.Cryptography/bin/Release/ 
         
   release:
     runs-on: ubuntu-latest    
