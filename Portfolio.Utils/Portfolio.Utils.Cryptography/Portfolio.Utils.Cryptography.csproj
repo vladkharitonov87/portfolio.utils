@@ -10,7 +10,8 @@
 	  <ImplicitUsings>enable</ImplicitUsings>
 	  <PackageId>Portfolio.Utils.Cryptography</PackageId>
 	  <PackageVersion>1.0.0</PackageVersion>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <RepositoryUrl>https://github.com/vladkharitonov87/portfolio.utils.git</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
