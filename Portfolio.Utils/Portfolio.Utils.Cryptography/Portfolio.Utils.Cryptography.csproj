@@ -9,7 +9,7 @@
 	  <Nullable>enable</Nullable>
 	  <ImplicitUsings>enable</ImplicitUsings>
 	  <PackageId>Portfolio.Utils.Cryptography</PackageId>
-	  <PackageVersion>1.0.1</PackageVersion>
+	  <PackageVersion>1.0.2</PackageVersion>
   </PropertyGroup>
 
 </Project>
