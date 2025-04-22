@@ -57,7 +57,7 @@ jobs:
       run: dotnet nuget add source --username vladkharitonov87 --password ${{ secrets.NUGET_PACKAGE_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/vladkharitonov87/index.json"
     - name: Push package to GitHub packages 
       if: needs.build.outputs.CommitsSinceVersionSource > 0 #Only release if there has been a commit/version change  
-      run: dotnet nuget push Portfolio.Utils.Cryptography/bin/Release/*.nupkg --api-key ${{ secrets.NUGET_PACKAGE_TOKEN }}  --source "github"
+      run: dotnet nuget push Portfolio.Utils/Portfolio.Utils.Cryptography/bin/Release/*.nupkg --api-key ${{ secrets.NUGET_PACKAGE_TOKEN }}  --source "github"
     
     #Create release
     - name: Create Release
